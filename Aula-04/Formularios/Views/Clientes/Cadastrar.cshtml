@@ -1,0 +1,84 @@
+@model MVC2026.Cliente
+@{
+    ViewData["Title"] = "Cadastro de Cliente ";
+}
+<div class="conteiner">
+
+     <h1 class="text-center mt-3  Display-4">
+        Cadastro de Cliente
+     </h1>
+     <form action="#" method="get">
+      <div class="row col-sm ">
+        <div class="col mt-3">
+            <label asp-for="Id">Código</label>
+           <input type="number" class="form-control" placeholder="Código da Cliente" asp-for="Id">
+        </div>
+
+      </div>
+      <div class="row ">
+         <div class="col mt-3">
+            <label asp-for="Id">Email</label>
+           <input type="number" class="form-control" placeholder="Digite seu Email" asp-for="Email">
+        </div>
+        <div class="col mt-3">
+            <label asp-for="Id">Nome Completo</label>
+           <input type="text" class="form-control" placeholder="Nome Completo" asp-for="Nome">
+        </div>
+      </div>
+         
+      <div class="row d">
+            <div class="col mt-3">
+            <label asp-for="Id">Nome da Cidade</label>
+           <input type="text" class="form-control" placeholder="Sua Cidade" asp-for="Cidade">
+        </div>
+        <div class="col mt-3">
+            <label asp-for="Id">Endereço</label>
+           <input type="text" class="form-control" placeholder="Seu Endereço" asp-for="Endereco">
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col mt-3">
+            <label asp-for="Id">CEP</label>
+           <input type="text" class="form-control" placeholder="digite seu CEP" asp-for="CEP">
+        </div>
+              <div class="col mt-3">
+            <label asp-for="Id">UF</label>
+           <input type="text" class="form-control" placeholder="Digite seu UF" asp-for="UF">
+        </div>
+      </div>
+       <div class="row   ">
+        <div class="col mt-3">
+            <label asp-for="Id">CPF</label>
+           <input type="text" class="form-control" placeholder="Digite seu CPF" asp-for="CPF" />
+        </div>
+        <div class="col mt-3">
+            <label asp-for="Id">Celular</label>
+           <input type="text" class="form-control" placeholder="EX-(xx)xxxxx-xxxx" asp-for="UF">
+        </div>
+       </div>
+       <div class="row   ">
+        <div class="col mt-3">
+            <label asp-for="Id">DataNascimento</label>
+           <input type="date" class="form-control" placeholder="Data de Nascimento" asp-for="DataNascimento" />
+        </div>
+       </div>
+
+
+
+
+
+
+         <div class="row mt-5">
+         <div class="col text-center">
+            <input type="submit" value="Enviar" class="w-50 btn-outline-secondary"/>
+         </div>
+        <div class="col">
+            <input type="reset" value="Limpar" class="w-50 btn-primary"/>
+         </div>
+     </div>
+     </form>
+
+
+
+
+</div>
